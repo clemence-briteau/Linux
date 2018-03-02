@@ -30,7 +30,7 @@ touch plan.txt
 echo "Que Onda hahaha" >> plan.txt
 
 # Gestion des droits : Fatale propriétaire, Groupe Overwatch accès en lecture
-chown Fatale -R /home/LaGriffe/Gantelet_Infini && echo "Fatale propriétaire de /home/LaGriffe/Gantelet_Infini"
+chown Fatale:Fatale -R /home/LaGriffe/Gantelet_Infini && echo "Fatale propriétaire de /home/LaGriffe/Gantelet_Infini"
 chmod 740 /home/LaGriffe/Gantelet_Infini && echo "Groupe Overwatch a accès en lecture à /home/LaGriffe/Gantelet_Infini"
 
 # Script blackwatch
@@ -38,7 +38,7 @@ cd ~
 mkdir /home/LaGriffe/Script 
 cd /home/LaGriffe/Script
 echo "echo "un tir, un mort"" >> blackwatch.sh
-chown Fatale -R /home/LaGriffe/Script
+chown Fatale:Fatale -R /home/LaGriffe/Script
 
 # Scritp Hey! 
 cd ~
