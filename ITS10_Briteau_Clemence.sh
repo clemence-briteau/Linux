@@ -45,13 +45,13 @@ cd ~
 cd /home/Tracer/
 echo "echo "Salut mon chou \! La cavalerie est arrivée \!" " >> Hey\!.sh
 
-# Gestion accès au dossier personnel de JimMorrison
+# Gestion accès de Tracer au dossier personnel de JimMorrison
 cd ~
-chmod 700 /home/JimMorrison 
+chmod 770 /home/JimMorrison 
 
 # Créer le répertoire /home/info
 mkdir /home/info && echo "Répertoire /home/info créé"
 
 # Gestion accès de Tracer dans /home/info
-chmod 744 /home/info
+chmod 775 /home/info
 
